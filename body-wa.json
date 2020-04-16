@@ -1,0 +1,1 @@
+{"query":{"bool":{"must":[{"query_string":{"query":"+log:WATCHER +log:Time +log:Model +log:decisor +kubernetes.container_name:\"gea-scoringbigdata-decisor\""}}],"filter":{"range":{"@timestamp":{"from":"now-5m","to":"now"}}}}},"size":10000}

@@ -1,0 +1,136 @@
+{
+  "took": 6,
+  "timed_out": false,
+  "_shards": {
+    "total": 7,
+    "successful": 7,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4,
+    "max_score": 52.711594,
+    "hits": [
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB-q6lFyVoWg4QCewq",
+        "_score": 52.711594,
+        "_source": {
+          "log": "[2020-04-16 07:53:40,865] [tor01] [WATCHER ] [decisor   ] [b2d689c1-a995-415f-8167-241e569bc445] [00000000] Time(s)[0.5643]Api[DECISOR]ApiGroup[varpor] Status[OK]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:53:40+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB-q6lFyVoWg4QCewh",
+        "_score": 49.765366,
+        "_source": {
+          "log": "[2020-04-16 07:53:40,781] [tor01] [WATCHER ] [decisor   ] [b2d689c1-a995-415f-8167-241e569bc445] [00000000] Time(s)[0.4729]Api[HBASE]ApiGroup[varpor] Status[OK]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:53:40+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB-q6lFyVoWg4QCewi",
+        "_score": 49.765366,
+        "_source": {
+          "log": "[2020-04-16 07:53:40,782] [tor01] [WATCHER ] [decisor   ] [b2d689c1-a995-415f-8167-241e569bc445] [00000000] Time(s)[0.4735]Api[HBASE]ApiGroup[varpor] Status[OK]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:53:40+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB-q6lFyVoWg4QCewj",
+        "_score": 49.765366,
+        "_source": {
+          "log": "[2020-04-16 07:53:40,782] [tor01] [WATCHER ] [decisor   ] [b2d689c1-a995-415f-8167-241e569bc445] [00000000] Time(s)[0.4740]Api[HBASE]ApiGroup[varpor] Status[OK]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:53:40+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      }
+    ]
+  }
+}

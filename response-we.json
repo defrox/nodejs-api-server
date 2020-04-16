@@ -1,0 +1,896 @@
+{
+  "took": 379,
+  "timed_out": false,
+  "_shards": {
+    "total": 7,
+    "successful": 7,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 29,
+    "max_score": 18.33443,
+    "hits": [
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB1z31FyVoWg4QA4QB",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:14:56,850] [tor01] [ALERT   ] [decisor   ] [6588e875-1b57-4294-a329-60d353f471bb] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicpjzmod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:14:56+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB1z32FyVoWg4QA4QW",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:14:58,500] [tor01] [ALERT   ] [decisor   ] [2ffe9198-df34-41ea-8607-51afdceabb39] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicpremod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:14:58+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB1z32FyVoWg4QA4Qa",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:14:58,555] [tor01] [ALERT   ] [decisor   ] [2ffe9198-df34-41ea-8607-51afdceabb39] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicprelog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:14:58+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA45i",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:00,180] [tor01] [ALERT   ] [decisor   ] [51d20aaf-96e3-4583-8bc8-0fc04d761e2d] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicrjzmod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:00+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA455",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:01,808] [tor01] [ALERT   ] [decisor   ] [644e69c1-35d1-4472-9b0a-f66565b7ad63] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicrrelog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:01+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA456",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:01,809] [tor01] [ALERT   ] [decisor   ] [644e69c1-35d1-4472-9b0a-f66565b7ad63] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nicrremod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:01+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA46R",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:03,447] [tor01] [ALERT   ] [decisor   ] [4b12e915-880b-4264-9516-5705b5f60aaa] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nirejzmod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:03+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5It",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:04,959] [tor01] [ALERT   ] [decisor   ] [ecb0f900-496e-47a5-9d7d-f95a895c7c40] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nirerelog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:04+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5Ix",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:05,006] [tor01] [ALERT   ] [decisor   ] [ecb0f900-496e-47a5-9d7d-f95a895c7c40] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-nireremod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:05+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5JH",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:06,654] [tor01] [ALERT   ] [decisor   ] [448b0c30-8155-4018-a4cd-3f1f9ada6161] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdalnumod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:06+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5JL",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:06,658] [tor01] [ALERT   ] [decisor   ] [448b0c30-8155-4018-a4cd-3f1f9ada6161] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdalnulog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:06+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5Jh",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:08,266] [tor01] [ALERT   ] [decisor   ] [92fb13f2-f0b5-48e6-bb47-b574eabe4508] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdcpjzlog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:08+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5Jl",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:08,324] [tor01] [ALERT   ] [decisor   ] [92fb13f2-f0b5-48e6-bb47-b574eabe4508] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdcpjzmod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:08+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5Vc",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:09,901] [tor01] [ALERT   ] [decisor   ] [67d0d472-36d2-46bb-afea-247410fe9b38] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdmigrmod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:09+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5Vg",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:09,985] [tor01] [ALERT   ] [decisor   ] [67d0d472-36d2-46bb-afea-247410fe9b38] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdmigrlog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:09+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5V2",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:11,862] [tor01] [ALERT   ] [decisor   ] [b2ab80dd-e3d7-490b-a1bc-5e82885a1c93] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdpprelog-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:11+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5V6",
+        "_score": 18.33443,
+        "_source": {
+          "log": "[2020-04-16 07:15:11,920] [tor01] [ALERT   ] [decisor   ] [b2ab80dd-e3d7-490b-a1bc-5e82885a1c93] [00000000] ERROR ALERT: Exception captured [E1]: Cannot connect to host gea-scoringbigdata-pdppremod-dev.dev:8080 ssl:True [Name or service not known]\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:11+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB1z31FyVoWg4QA4QH",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:14:56,853] [tor01] [WARNING ] [decisor   ] [6588e875-1b57-4294-a329-60d353f471bb] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:14:56+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB1z32FyVoWg4QA4Qh",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:14:58,558] [tor01] [WARNING ] [decisor   ] [2ffe9198-df34-41ea-8607-51afdceabb39] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:14:58+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA45o",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:00,183] [tor01] [WARNING ] [decisor   ] [51d20aaf-96e3-4583-8bc8-0fc04d761e2d] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:00+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA46E",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:01,812] [tor01] [WARNING ] [decisor   ] [644e69c1-35d1-4472-9b0a-f66565b7ad63] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:01+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB11HNFyVoWg4QA46X",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:03,450] [tor01] [WARNING ] [decisor   ] [4b12e915-880b-4264-9516-5705b5f60aaa] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:03+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5I4",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:05,009] [tor01] [WARNING ] [decisor   ] [ecb0f900-496e-47a5-9d7d-f95a895c7c40] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:05+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5JS",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:06,662] [tor01] [WARNING ] [decisor   ] [448b0c30-8155-4018-a4cd-3f1f9ada6161] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:06+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB12V0FyVoWg4QA5Js",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:08,327] [tor01] [WARNING ] [decisor   ] [92fb13f2-f0b5-48e6-bb47-b574eabe4508] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:08+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5Vn",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:09,988] [tor01] [WARNING ] [decisor   ] [67d0d472-36d2-46bb-afea-247410fe9b38] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:09+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB13j8FyVoWg4QA5WB",
+        "_score": 17.366962,
+        "_source": {
+          "log": "[2020-04-16 07:15:11,923] [tor01] [WARNING ] [decisor   ] [b2ab80dd-e3d7-490b-a1bc-5e82885a1c93] [00000000] ERROR WARNING: No models are responding\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-dev",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-decisor-dev-566d8db5c7-twvst",
+            "pod_id": "553e050c-7f0c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020900",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "566d8db5c7",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.6"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:15:11+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-dev-566d8db5c7-twvst_dev_gea-scoringbigdata-decisor-dev-9f85137a31199c14ba6167990fa157081f9b86f6e6f0ccfeae0c34f557b9e45c.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGBoLkNFyVoWg4Q-YlB",
+        "_score": 15.23509,
+        "_source": {
+          "log": "[2020-04-16 06:15:23,125] [tor01] [ERROR   ] [watcher   ] ERROR MINOR: Watcher Alarmer Job Timeout\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "e92a58c2d254da3046c70c690f590f0a55f0dd58f33e1e9e69c7c8d5e5d93c65"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-watcher",
+            "namespace_name": "dev",
+            "pod_name": "gea-scoringbigdata-watcher-dev-f5bdcb6c9-5tl47",
+            "pod_id": "f719bc32-7f3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "consul": "server",
+              "consul-datacenter": "gea-scoringbigdata-consul",
+              "consul-node": "gea-scoringbigdata-watcher-dev",
+              "consul-node-id": "a92aab0c-435b-45d4-f4fe-8126a310d276",
+              "consul-node-ip": "10.145.0.58",
+              "deploy-version": "v202004210900",
+              "k8s-app": "gea-scoringbigdata-watcher",
+              "pod-template-hash": "f5bdcb6c9",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.10"
+            },
+            "host": "tor01-aot-002-k8s10",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T06:15:23+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-watcher-dev-f5bdcb6c9-5tl47_dev_gea-scoringbigdata-watcher-e92a58c2d254da3046c70c690f590f0a55f0dd58f33e1e9e69c7c8d5e5d93c65.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGB73yHFyVoWg4QB-5X",
+        "_score": 15.23509,
+        "_source": {
+          "log": "[2020-04-16 07:41:23,979] [tor01] [ERROR   ] [watcher   ] ERROR MINOR: Watcher Alarmer Job Timeout\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "fa522759cc59fcdb5d0625916380689cee60e7b6ed6ff455fd3bd09d44d560d0"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-watcher",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-watcher-pre-c6bf57f7f-lcqxm",
+            "pod_id": "2882832c-7f41-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "consul": "server",
+              "consul-datacenter": "gea-scoringbigdata-consul",
+              "consul-node": "gea-scoringbigdata-watcher-pre",
+              "consul-node-id": "2176bc34-4b25-35f4-001f-ab6691fecc76",
+              "consul-node-ip": "10.145.0.53",
+              "deploy-version": "v202004210900",
+              "k8s-app": "gea-scoringbigdata-watcher",
+              "pod-template-hash": "c6bf57f7f",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.10"
+            },
+            "host": "tor01-aot-002-k8s09",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T07:41:23+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-watcher-pre-c6bf57f7f-lcqxm_pre_gea-scoringbigdata-watcher-fa522759cc59fcdb5d0625916380689cee60e7b6ed6ff455fd3bd09d44d560d0.log"
+        }
+      }
+    ]
+  }
+}

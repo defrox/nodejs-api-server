@@ -1,0 +1,736 @@
+{
+  "took": 29,
+  "timed_out": false,
+  "_shards": {
+    "total": 7,
+    "successful": 7,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 24,
+    "max_score": 21.07779,
+    "hits": [
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdY7nFyVoWg4QVMxM",
+        "_score": 21.07779,
+        "_source": {
+          "log": "[2020-04-16 14:47:30,988] [tor01] [VMONITOR] [decisor   ] [80cff550-9061-41dd-a397-769a881defd2] [00000000] API2_INPUT: {'REQUEST_VALUE_ID': 'varpor', 'SOLICITUD_ID': '00000000', 'QUERY': [{'DIRECTORY_NUMBER_ID': '600098819'}, {'DIRECTORY_NUMBER_ID': '600008782'}, {'DIRECTORY_NUMBER_ID': '600010614'}]}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:30+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFE",
+        "_score": 21.07779,
+        "_source": {
+          "log": "[2020-04-16 14:47:31,795] [tor01] [VMONITOR] [decisor   ] [92da426b-d0f2-4cb1-ae9f-1f8d1a9ef4db] [00000000] API2_INPUT: {'REQUEST_VALUE_ID': 'varint', 'SOLICITUD_ID': '00000000', 'QUERY': [{'DIRECTORY_NUMBER_ID': '600337321'}, {'DIRECTORY_NUMBER_ID': '600336776'}, {'DIRECTORY_NUMBER_ID': '600336808'}]}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:31+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFN",
+        "_score": 19.565166,
+        "_source": {
+          "log": "[2020-04-16 14:47:31,916] [tor01] [VMONITOR] [decisor   ] [92da426b-d0f2-4cb1-ae9f-1f8d1a9ef4db] [00000000] API2_OUTPUT: {'REQUEST_VALUE_ID': 'varint', 'SOLICITUD_ID': '00000000', 'DECISOR_OUT_UUID': '92da426b-d0f2-4cb1-ae9f-1f8d1a9ef4db', 'RESULT': [{'DIRECTORY_NUMBER_ID': '600337321', 'SCORE': '0.03208792'}]}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:31+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFA",
+        "_score": 17.613333,
+        "_source": {
+          "log": "[2020-04-16 14:47:31,289] [tor01] [VMONITOR] [decisor   ] [80cff550-9061-41dd-a397-769a881defd2] [00000000] API2_OUTPUT: {'REQUEST_VALUE_ID': 'varpor', 'SOLICITUD_ID': '00000000', 'DECISOR_OUT_UUID': '80cff550-9061-41dd-a397-769a881defd2', 'RESULT': [{'DIRECTORY_NUMBER_ID': '600098819', 'PORTABILITIES_ACTIVITIES': '0.44', 'TOTAL_EFFECTIVES_L2Y': '0', 'MONTHS_PORTABILITY': '38', 'DATE_LOAD': '20191210'}, {'DIRECTORY_NUMBER_ID': '600008782', 'PORTABILITIES_ACTIVITIES': '0.33', 'TOTAL_EFFECTIVES_L2Y': '0', 'MONTHS_PORTABILITY': '25', 'DATE_LOAD': '20191210'}, {'DIRECTORY_NUMBER_ID': '600010614', 'PORTABILITIES_ACTIVITIES': '0.0', 'TOTAL_EFFECTIVES_L2Y': '0', 'MONTHS_PORTABILITY': None, 'DATE_LOAD': '20191210'}]}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:31+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFW",
+        "_score": 16.464558,
+        "_source": {
+          "log": "[2020-04-16 14:47:33,929] [tor01] [VMONITOR] [decisor   ] [de7303e3-a8a8-4eb4-a07f-861358564faf] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0.0, 'CALC_TIPOCLIOPERDONANTE_ID': 'OTROS', 'CALC_TIPOSOLICITUD_ID': 'Desconocido', 'CALC_ANTIGCLI_NUM': 101, 'CALC_AS_IMPIMPAG': 0.0, 'CALC_DEUDA': -99.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_EDAD_NUM': 36, 'CALC_INTERCONEXIONES': 2.0, 'CALC_MAXMONTHLYAVGETURNOVER': 74.64, 'CALC_NUMFACTURASDEV_NUM_J': 0.0, 'CALC_NUMFACTURASEMIT_NUM_J': 0.0, 'CALC_NUMFACTURASPAG_NUM': 143, 'CALC_NUMINCIDPAGO_NUM': 54, 'CALC_NUMLINACTIVAS': -99.0, 'CALC_RATFACINCFACPAG_NUM': 0.38, 'CALC_NACIONALIDAD_ID': 'ESPANA', 'CALC_CODPROV': 'MEDITERRANEOSUR', 'CALC_TIPODOCUM_ID': 'DNI', 'CALC_TIPOORIGEN_ID': 'Desconocido', 'Scores': 0.0346146077, 'model_name': 'nicpjzmod.1.0', 'decisor_out_uuid': '64875e10-4848-4276-9eb9-f691ba83e1af', 'model_in_uuid': '74f05c50-829c-490d-8ae5-c5b72348e33c', 'k8s_node_name': 'tor01-aot-002-k8s08', 'decisor_model_name': 'nicpjzmod', 'decisor_group': 'nicpjz'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:33+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdcmlFyVoWg4QVNfV",
+        "_score": 16.464558,
+        "_source": {
+          "log": "[2020-04-16 14:47:42,967] [tor01] [VMONITOR] [decisor   ] [da0ad8f4-5043-4a83-8177-b5d2628a1e32] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0.0, 'CALC_ANTIGCLI_NUM': 101.0, 'CALC_DEUDA': -99.0, 'CALC_EDAD_NUM': 36.0, 'CALC_FACTURACIONMEDIAMENS_NUM_J': -99.0, 'CALC_IMPORTEPAGADO_NUM_J': -99.0, 'CALC_NUMFACTURASDEV_NUM_J': 0.0, 'CALC_NUMFACTURASPAG_NUM': 143.0, 'CALC_NUMFACTURASPAG_NUM_J': 0.0, 'CALC_NUMINCIDPAGO_NUM': 54.0, 'CALC_RAT_FACDEV_FACTOT_J': -99.0, 'CALC_RATFACINCFACPAG_NUM': 0.38, 'CALC_CODPROV': 'MEDITERRANEOSUR', 'CALC_NACIONALIDAD_ID': 'ESPANA', 'Scores': 0.0089677228, 'model_name': 'nirejzmod.1.0', 'decisor_out_uuid': '5df24de8-ce00-4760-ae7f-b371afdcc31f', 'model_in_uuid': '9b44480c-90e8-4263-a53a-1a5c56e2b9ab', 'decisor_model_name': 'nirejzmod', 'decisor_group': 'nirejz'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:42+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdcmlFyVoWg4QVNfh",
+        "_score": 16.464558,
+        "_source": {
+          "log": "[2020-04-16 14:47:45,565] [tor01] [VMONITOR] [decisor   ] [58d08322-23d1-4220-b787-4efbebebe124] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0.0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143.0, 'NUMINCIDPAGO_NUM': 54.0, 'NUMFACTURASPAG_NUM_J': 0.0, 'IMPORTEPAGADO_NUM_J': -99.0, 'IMPORTEIMPAGADO_NUM_J': -99.0, 'FACTURACIONMEDIAMENS_NUM_J': -99.0, 'RAT_FACDEV_FACTOT_J': -99.0, 'SERVICIOS_ACTIVOS': -99.0, 'AS_IMPIMPAG': 0.0, 'AS_NUMOPERIMPAG': -99.0, 'BD_IMPIMPAG': -99.0, 'ANTIGCLI_NUM': 101.0, 'RATFACINCFACPAG_NUM': 0.38, 'EDAD_NUM': 36, 'DEUDA': -99.0, 'DEUDA_TELCO': -99.0, 'TIPODOCUM_ID': 'DNI', 'NACIONALIDAD_ID': 'ESPANA', 'CODPROV': 'MEDITERRANEOSUR', 'Scores': 0.0056324601, 'model_name': 'nireremod.2.0', 'decisor_out_uuid': 'f07218ec-7171-4b6c-8e72-c655cecaa85d', 'model_in_uuid': '11b54b9e-2662-4113-b0cf-e5629328423a', 'decisor_model_name': 'nireremod', 'decisor_group': 'nirere'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:45+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDddz7FyVoWg4QVNpE",
+        "_score": 16.464558,
+        "_source": {
+          "log": "[2020-04-16 14:47:47,704] [tor01] [VMONITOR] [decisor   ] [44e186ea-bd70-463f-b9ac-89cf279da2c0] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0.0, 'CALC_TIPODOCUM_ID': 'DNI/NIF', 'CALC_NACIONALIDAD_ID': 'ESPANA', 'CALC_AS_IMPIMPAG': 0.0, 'CALC_AS_NUMCUOTAIMPAG': -99.0, 'CALC_BD_IMPIMPAG': -99.0, 'CALC_DEUDA': -99.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_EDAD_NUM': 36.01, 'CALC_IMPORTEPAGADO_NUM_J': '-99', 'CALC_MAXMONTHLYAVGETURNOVER': 70.01, 'CALC_NUMFACTURASDEV_NUM_J': 0.0, 'CALC_NUMFACTURASEMIT_NUM_J': 0.0, 'CALC_NUMFACTURASPAG_NUM': 75.01, 'CALC_NUMFACTURASPAG_NUM_J': 0.0, 'CALC_NUMINCIDPAGO_NUM': 4.01, 'CALC_NUMLINACTIVAS': -99.0, 'CALC_RAT_FACDEV_FACTOT_J': -99.0, 'CALC_RATFACINCFACPAG_NUM': 0.31, 'CALC_ZONA': 'Alicante', 'Scores': 0.0746273175, 'model_name': 'pdalnumod.1.0', 'decisor_out_uuid': '1527fc91-1c3f-493c-b08a-bd4cd73d1497', 'model_in_uuid': '3320f8d2-628b-486e-bb0c-4676d937bcaf', 'decisor_model_name': 'pdalnumod', 'decisor_group': 'pdalnu'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:47+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdfDdFyVoWg4QVN22",
+        "_score": 16.464558,
+        "_source": {
+          "log": "[2020-04-16 14:47:54,723] [tor01] [VMONITOR] [decisor   ] [3563d54e-21b6-462f-9c12-c0a7017d5a8e] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0, 'CALC_TIPODOCUM_ID': 'DNI/NIF', 'CALC_NACIONALIDAD_ID': 'ESPANA', 'CALC_AS_IMPIMPAG': 0.0, 'CALC_AS_NUMCUOTAIMPAG': -99.0, 'CALC_BD_IMPIMPAG': -99.0, 'CALC_DEUDA': -99.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_EDAD_NUM': 35.01, 'CALC_IMPORTEPAGADO_NUM_J': -99.0, 'CALC_INTERCONEXIONES': 1.01, 'CALC_MAXMONTHLYAVGETURNOVER': 60.01, 'CALC_NUMFACTURASDEV_NUM_J': 0.01, 'CALC_NUMFACTURASEMIT_NUM_J': 0.01, 'CALC_NUMFACTURASPAG_NUM': 72.01, 'CALC_NUMFACTURASPAG_NUM_J': -99.0, 'CALC_NUMINCIDPAGO_NUM': 2.01, 'CALC_RAT_FACDEV_FACTOT_J': 0.0, 'CALC_RATFACINCFACPAG_NUM': 0.21, 'CALC_ZONA': 'Valencia y Castellon', 'Scores': 0.0825143382, 'model_name': 'pdppremod.1.0', 'decisor_out_uuid': 'bb76ccf9-ecba-4443-b779-172592c5ca66', 'model_in_uuid': 'f6ebad07-b28f-466e-a282-3e1257752f49', 'decisor_model_name': 'pdppremod', 'decisor_group': 'pdppre'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:54+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdbXyFyVoWg4QVNSr",
+        "_score": 15.216948,
+        "_source": {
+          "log": "[2020-04-16 14:47:38,179] [tor01] [VMONITOR] [decisor   ] [937b479e-4429-4e32-960d-ccae35122c47] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0, 'CALC_NUMFACTURASPAG_NUM_J': -99.0, 'CALC_NUMFACTURASEMIT_NUM_J': -99.0, 'CALC_ANTIGCLI_NUM': 92.28, 'CALC_AS_NUMOPERIMPAG': -99.0, 'CALC_DEUDA': -99.0, 'CALC_IMPORTEPAGADO_NUM_J': -99.0, 'CALC_AS_IMPIMPAG': -1.0, 'CALC_BD_IMPIMPAG': -1.0, 'CALC_RATFACINCFACPAG_NUM': 0.0, 'CALC_ANTIGUEDADDEUDA_NUM_J': -98.99, 'CALC_IMPORTEIMPAGADO_NUM_J': -98.99, 'CALC_FACTURACIONMEDIAMENS_NUM_J': -98.99, 'CALC_RAT_FACDEV_FACTOT_J': -98.99, 'CALC_SERVICIOS_ACTIVOS': -99.0, 'CALC_IMPORTEIMPAGADO_NUM_O': -99.0, 'CALC_AS_NUMCUOTAIMPAG': -99.0, 'CALC_IMPIMPAGENCOBROS_NUM': 0.0, 'CALC_RATFACDEVFACTOT_NUM': 0.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_NUMFACTURASDEV_NUM_J': -49.49, 'CALC_RAT_NUMFACTURASIMPPAG_NUM_J': -98.99, 'CALC_ANTI_FECULTFACTURADEV_FC': '-1.0', 'CALC_ANTI_FECULTFACTIMPAG_FC_O': -99.0, 'Scores': 0.0215475, 'model_name': 'nicrjzmod.1.0', 'decisor_out_uuid': '579d6cab-c333-4ccc-b734-743d87409837', 'model_in_uuid': '23f2a516-f02c-44d1-9e5c-8efee0c8bbfe', 'k8s_node_name': 'tor01-aot-002-k8s08', 'decisor_model_name': 'nicrjzmod', 'decisor_group': 'nicrjz'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:38+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdbXyFyVoWg4QVNS3",
+        "_score": 15.216948,
+        "_source": {
+          "log": "[2020-04-16 14:47:40,790] [tor01] [VMONITOR] [decisor   ] [65bd673a-35ec-4668-a1c4-09d70765513e] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0, 'ANTIGCLI_NUM': 101, 'DEUDA_TELCO': 0.0, 'EDAD_NUM': 36, 'IMPIMPAGENCOBROS_NUM': 0.0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASDEV_NUM': 10, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASPAG_NUM_J': 0, 'NUMINCIDPAGO_NUM': 54, 'RATFACINCFACPAG_NUM': 0.38, 'TELCO_BADEX': 0.0, 'CALC_AS_NUMCUOTAIMPAG': 0, 'CALC_AS_NUMOPERIMPAG': 0, 'CALC_NUMLINCURSO': -99, 'CALC_NUMLINSOLICITADAS': -99, 'CALC_SERVICIOS_ACTIVOS': -99, 'WOE_INTERCONEXIONES': '0.0', 'WOE_CODPROV': '-0.02209285035710717', 'WOE_ENASNEF_NUM': '0.0', 'WOE_ENBADEX_NUM': '0.0', 'WOE_TIPOCLIENTE_ID': '-0.04174584163911543', 'WOE_TIPOCLIOPERDONANTE_ID': '-0.06068954375603841', 'WOE_TIPODOCUM_ID': '0.05260438186505656', 'WOE_TIPOORIGEN_ID': '0.0', 'Scores': 0.0086891521, 'model_name': 'nicrremod.1.0', 'decisor_out_uuid': '96fd2d7e-4a40-4591-8470-3c9cd0fa2901', 'model_in_uuid': 'ba5f81f2-6dcc-4773-9f6a-ed6a95b26753', 'decisor_model_name': 'nicrremod', 'decisor_group': 'nicrre'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:40+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDddz7FyVoWg4QVNpQ",
+        "_score": 15.216948,
+        "_source": {
+          "log": "[2020-04-16 14:47:50,111] [tor01] [VMONITOR] [decisor   ] [28de5c5d-4c35-45a4-a020-cb91e7d6efae] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0.0, 'TIPO_DE_ALTA': 'Desconocido', 'CALC_CODPROV': 'Alicante', 'CALC_NACIONALIDAD_ID': 'ESPANA', 'CALC_TIPODOCUM_ID': 'DNI/NIF', 'CALC_ANTIGCLI_NUM': 101, 'CALC_ANTIGUEDADDEUDA_NUM_O': 0.0, 'CALC_AS_NUMOPERIMPAG': -99.0, 'CALC_DEUDA': 0.0, 'CALC_DEUDA_TELCO': 0.0, 'CALC_EDAD_NUM': 36, 'CALC_FACTURACIONMEDIAMENS_NUM_J': -99.0, 'CALC_FACTURACIONMEDIAMENS_NUM_O': 0.0, 'CALC_IMPIMPAGENCOBROS_NUM': 0.0, 'CALC_IMPORTEPAGADO_NUM_J': -99.0, 'CALC_IMPORTEPAGADO_NUM_O': 20.0, 'CALC_MAXMONTHLYAVGETURNOVER': 74.64, 'CALC_NUMFACTURASDEV_NUM': 10, 'CALC_NUMFACTURASDEV_NUM_J': 0.0, 'CALC_NUMFACTURASDEV_NUM_O': -99.0, 'CALC_NUMFACTURASEMIT_NUM_J': 0.0, 'CALC_NUMFACTURASEMIT_NUM_O': 0.0, 'CALC_NUMFACTURASIMPPAG_NUM_O': -99.0, 'CALC_NUMFACTURASPAG_NUM': 143, 'CALC_NUMFACTURASPAG_NUM_J': 0.0, 'CALC_NUMFACTURASPAG_NUM_O': 0.0, 'CALC_NUMINCIDPAGO_NUM': 54, 'CALC_RATFACINCFACPAG_NUM': 0.38, 'CALC_RAT_FACDEV_FACTOT_J': -99.0, 'CALC_INTERCONEXIONES': 2.0, 'Scores': 0.5868689418, 'model_name': 'pdcpjzmod.1.0', 'decisor_out_uuid': '35995f05-6820-4d54-9649-fab84d4d4d85', 'model_in_uuid': '95983ee1-a91d-456d-813b-b952b351f547', 'decisor_model_name': 'pdcpjzmod', 'decisor_group': 'pdcpjz'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:50+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdfDdFyVoWg4QVN2q",
+        "_score": 15.216948,
+        "_source": {
+          "log": "[2020-04-16 14:47:52,609] [tor01] [VMONITOR] [decisor   ] [5ad7cf25-c45b-4274-9b4e-d8ce47d8c0b1] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0, 'CALC_TIPODOCUM_ID': 'DNI/NIF', 'CALC_NACIONALIDAD_ID': 'ESPANA', 'CALC_AS_IMPIMPAG': 0.0, 'CALC_AS_NUMCUOTAIMPAG': -99.0, 'CALC_BD_IMPIMPAG': -99.0, 'CALC_DEUDA': -99.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_EDAD_NUM': 35.01, 'CALC_IMPORTEPAGADO_NUM_J': -99.0, 'CALC_INTERCONEXIONES': 1.01, 'CALC_MAXMONTHLYAVGETURNOVER': 60.01, 'CALC_MPREPOS_IMPMEDRECSCOSTE_NUM': 0.0, 'CALC_MPREPOS_IMPRECSCOSTE_NUM': 0.0, 'CALC_MPREPOS_ANTPREP_NUM': -99, 'CALC_NUMFACTURASDEV_NUM_J': 0.01, 'CALC_NUMFACTURASEMIT_NUM_J': 0.01, 'CALC_NUMFACTURASPAG_NUM': 60.01, 'CALC_NUMFACTURASPAG_NUM_J': 0.01, 'CALC_NUMINCIDPAGO_NUM': 4.01, 'CALC_RAT_FACDEV_FACTOT_J': -99.0, 'CALC_RATFACINCFACPAG_NUM': 0.21, 'CALC_ZONA': 'Valencia y Castellon', 'Scores': 0.2257275879, 'model_name': 'pdmigrmod.1.0', 'decisor_out_uuid': 'd07dd8a4-13b7-41b1-a5e3-25f5cdc20257', 'model_in_uuid': '06abf12c-2552-42e2-93c0-171e1f2d5870', 'decisor_model_name': 'pdmigrmod', 'decisor_group': 'pdmigr'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:52+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdbXyFyVoWg4QVNSi",
+        "_score": 13.906956,
+        "_source": {
+          "log": "[2020-04-16 14:47:36,173] [tor01] [VMONITOR] [decisor   ] [24f540ed-7abc-4e4f-b55b-08f2c3f4bc0d] [00000000] API_OUTPUT: {'SOLICITUD_ID': 0, 'CODPROV': 'Alicante', 'ENASNEF_NUM': 10, 'ENBADEX_NUM': 10, 'FORMAPAGO_ID': 'Cuenta corriente', 'IMPORTEIMPAGADO_NUM_J': '-99', 'INTERCONEXIONES': '-99', 'RAT_FACDEV_FACTOT_J': -99, 'TIPOCLIENTE_ID': 'Residencial', 'TIPOCLIOPERDONANTE_ID': 'Desconocido', 'TIPODOCUM_ID': 'DNI/NIF', 'TIPOORIGEN_ID': 'Migracion', 'TIPOSOLICITUD_ID': 'Alta', 'CALC_ANTIGUEDADDEUDA_NUM_J': -99, 'CALC_AS_NUMCUOTAIMPAG': -99, 'CALC_AS_NUMOPERIMPAG': -99, 'CALC_BD_IMPIMPAG': '-99', 'CALC_DEUDA': -99.0, 'CALC_DEUDA_TELCO': -99.0, 'CALC_EDAD_NUM': 36.01, 'CALC_FACTURACIONMEDIAMENS_NUM_J': '-99', 'CALC_IMPAGO_ASNEF': 0.0, 'CALC_IMPAGO_BADEX': 0.0, 'CALC_IMPORTEPAGADO_NUM_J': '-99', 'CALC_MAXMONTHLYAVGETURNOVER': 60.01, 'CALC_MPREPOS_ANTPREP_NUM': -99.0, 'CALC_MPREPOS_IMPMEDRECSCOSTE_NUM': '-99', 'CALC_MPREPOS_IMPRECSCOSTE_NUM': -99, 'CALC_MPREPOS_NUM_LINEAS': -99, 'CALC_NUMFACTURASEMIT_NUM_J': 0.01, 'CALC_NUMFACTURASIMPPAG_NUM_J': -99, 'CALC_NUMFACTURASPAG_NUM': 14.01, 'CALC_NUMFACTURASPAG_NUM_J': 0, 'CALC_NUMFACTURASPDTES_NUM_J': -99, 'CALC_NUMINCIDPAGO_NUM': 5.01, 'CALC_NUMLINACTIVAS': -99, 'CALC_NUMLINCURSO': -99, 'CALC_NUMLINSOLICITADAS': '-99', 'CALC_RATFACINCFACPAG_NUM': 0, 'CALC_SERVICIOS_ACTIVOS': -99, 'CALC_TELCO_BADEX': '-99', 'CALC_CODBANCO': 'Desconocido', 'CALC_CALC_ANTIGCLI_MESES': -99, 'CALC_CALC_RAT_FACDEV_FACTOT_J': -99, 'Scores': 0.026104534, 'model_name': 'nicpremod.1.0', 'decisor_out_uuid': '1d5291cd-a58f-4bca-851c-ff0f5f0a8f56', 'model_in_uuid': 'e379d758-3036-405c-8d50-437f157a133d', 'decisor_model_name': 'nicpremod', 'decisor_group': 'nicpre'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:36+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFR",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:33,288] [tor01] [VMONITOR] [decisor   ] [de7303e3-a8a8-4eb4-a07f-861358564faf] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nicpjz', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:33+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdaJ3FyVoWg4QVNFa",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:35,489] [tor01] [VMONITOR] [decisor   ] [24f540ed-7abc-4e4f-b55b-08f2c3f4bc0d] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nicpre', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:35+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdbXyFyVoWg4QVNSm",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:37,695] [tor01] [VMONITOR] [decisor   ] [937b479e-4429-4e32-960d-ccae35122c47] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nicrjz', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:37+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdbXyFyVoWg4QVNSv",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:39,693] [tor01] [VMONITOR] [decisor   ] [65bd673a-35ec-4668-a1c4-09d70765513e] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nicrre', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:39+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdcmlFyVoWg4QVNfQ",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:42,202] [tor01] [VMONITOR] [decisor   ] [da0ad8f4-5043-4a83-8177-b5d2628a1e32] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nirejz', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:42+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdcmlFyVoWg4QVNfZ",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:44,489] [tor01] [VMONITOR] [decisor   ] [58d08322-23d1-4220-b787-4efbebebe124] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'nirere', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:44+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDddz7FyVoWg4QVNo8",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:46,996] [tor01] [VMONITOR] [decisor   ] [44e186ea-bd70-463f-b9ac-89cf279da2c0] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'pdalnu', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:46+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDddz7FyVoWg4QVNpI",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:49,196] [tor01] [VMONITOR] [decisor   ] [28de5c5d-4c35-45a4-a020-cb91e7d6efae] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'pdcpjz', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:49+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdfDdFyVoWg4QVN2i",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:51,593] [tor01] [VMONITOR] [decisor   ] [5ad7cf25-c45b-4274-9b4e-d8ce47d8c0b1] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'pdmigr', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:51+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      },
+      {
+        "_index": "kubernetes-2020.04.16",
+        "_type": "fluentd",
+        "_id": "AXGDdfDdFyVoWg4QVN2u",
+        "_score": 10.85259,
+        "_source": {
+          "log": "[2020-04-16 14:47:53,999] [tor01] [VMONITOR] [decisor   ] [3563d54e-21b6-462f-9c12-c0a7017d5a8e] [00000000] API_INPUT: {'REQUEST_MODEL_ID': 'pdppre', 'FECHASOLICITUD': 20161001, 'SOLICITUD_ID': '00000000', 'SCR_ID': '00000000', 'TIPOINVOCACION_ID': 2, 'TIPOSOLICITUD_ID': 3, 'TIPOCLIENTE_ID': 1, 'DISTRIBUIDOR': 10000009, 'N1': 'Online', 'N2': '13. E-shop', 'N3': 'E-shop', 'SISTEMAENTRADA_ID': None, 'TIPODOCUM_ID': 2, 'NUMDOCUM': '20443110C', 'FECNACIM_FC': '29JAN1980:00:00:00', 'IAE': None, 'FECALTAIAE_FC': None, 'NACIONALIDAD_ID': 4, 'VALDOCUM_ID': None, 'CODPOST': 3360, 'NUMADMIN': None, 'ADMINTIPODOCUM_TK': None, 'ADMINNUMDOCUM_TK': None, 'PORTABILIDAD_ID': None, 'TIPOCLIOPERDONANTE_ID': None, 'OPERADORDONANTE': None, 'FECALTA_FC': '20161001', 'NUMLINACTIVAS': None, 'NUMLINSOLICITADAS': None, 'NUMLINCURSO': None, 'FORMAPAGO_ID': 2, 'CODBANCO': None, 'SCORECARD': 13, 'MARCA_ID': 2, 'TIPOSERVICIO_ID': 4, 'TIPOORIGEN_ID': 4, 'TIPOPAGO_ID': 1, 'MPREPOS_NUM_LINEAS': None, 'MPREPOS_FECALTACLI_TK': None, 'MPREPOS_FECULTRECCOSTE_TK': None, 'MPREPOS_IMPRECSCOSTE_TK': None, 'PAPTIPOVAP_TK': None, 'RESULTADO_ID': 19235929, 'CAMBIO_FC': '01OCT2016:10:18:47', 'USUAPLIC': None, 'CODRESP': 0, 'DECISION': 'Aceptada', 'ORDEN': 1, 'DECISION1': 'Aceptada', 'PUNTUACION': 583, 'GRUPORIESGO': 'Riesgo Bajo', 'MAXLINEASEGMENTO': None, 'LINEAASIGNADA': None, 'LINEACONCEDIDA': None, 'PAGOAPLAZOCONCEDIDO': 1, 'BUZON': None, 'EXCESO': None, 'PREVIASCRID': None, 'PREVIARESULTADOID': None, 'DECISION_INI': 'Aceptada', 'GRUPORIESGO_INI': 'Riesgo Bajo', 'DECISION_INI1': 'Aceptada', 'ALIAS': 'RENOVEPF', 'VERSIONSW': 6.07, 'FECHASW_FC': '20160630', 'REGLAMASPRIORITARIA': None, 'REGLASACTUALES': None, 'REGLA1': None, 'REGLA2': None, 'VPREGLAMASPRIORITARIA': None, 'VPRESULTADO_ID': None, 'VPSCR_ID': None, 'GRUPOCANAL': None, 'REGLAVP1': None, 'REGLAVP2': None, 'RIESGO_ID': None, 'INTERCONEXIONES': 2, 'FECULTFACTURADEV_FC': '20160630', 'IMPIMPAGENCOBROS_NUM': 0, 'IMPVENDIMPAGOPCO_NUM': 0, 'MAXMONTHLYAVGETURNOVER': 74.64, 'NUMFACTURASPAG_NUM': 143, 'NUMFACTURASDEV_NUM': 10, 'NUMINCIDPAGO_NUM': 54, 'RATFACDEVFACTOT_NUM': 0, 'NUMFACTURASEMIT_NUM_O': 0, 'NUMFACTURASPAG_NUM_O': 0, 'NUMFACTURASDEV_NUM_O': -99, 'NUMFACTURASPDTES_NUM_O': None, 'NUMFACTURASIMPPAG_NUM_O': None, 'IMPORTEPAGADO_NUM_O': 20, 'IMPORTEIMPAGADO_NUM_O': 34, 'FECULTFACTIMPAG_FC_O': 0, 'FACTURACIONMEDIAMENS_NUM_O': 0, 'ANTIGUEDADDEUDA_NUM_O': 0, 'RAT_FACDEV_FACTOT_O': 0, 'NUMFACTURASEMIT_NUM_J': 0, 'NUMFACTURASPAG_NUM_J': 0, 'NUMFACTURASDEV_NUM_J': 0, 'NUMFACTURASPDTES_NUM_J': None, 'NUMFACTURASIMPPAG_NUM_J': None, 'IMPORTEPAGADO_NUM_J': None, 'IMPORTEIMPAGADO_NUM_J': None, 'FECULTFACTIMPAG_FC_J': None, 'FACTURACIONMEDIAMENS_NUM_J': None, 'ANTIGUEDADDEUDA_NUM_J': None, 'RAT_FACDEV_FACTOT_J': None, 'INDACCESO': 1, 'SERVICIOS_ACTIVOS': -99, 'SERVICIOS_SUSPENDIDOS': -99, 'SERVICIOS_NO_ACTIVOS': -99, 'FLAG_PREV': 0, 'SCORE': None, 'ENTIDADCEDENTE_TK': None, 'SALDIMPAG_TK': None, 'AS_IMPIMPAG': 0, 'ADMINASNEF_NUM': -9, 'ENASNEF_NUM': 10, 'AS_IMPIMPAG_ADM1': -999999999999.99, 'AS_NUMOPERIMPAG': None, 'AS_IMPIMPAG_ADM2': -9, 'IMPIMPAGADMIN2': -999999999999.99, 'AS_IMPIMPAG_ADM': 0, 'IMPAGO_ASNEF': 0, 'TELCO_ASNEF': '0', 'AS_NUMCUOTAIMPAG': None, 'ENBADEX_NUM': 10, 'ADMINBADEX_NUM': -9, 'BD_IMPIMPAG': -99999999999.99, 'BD_IMPIMPAG_ADM1': -99999999999.99, 'BD_IMPIMPAG_ADM2': -99999999999.99, 'TELCO_BADEX': None, 'BD_IMPIMPAG_ADM': 0, 'IMPAGO_BADEX': 0, 'ID_FECHA_BUR': 20161001, 'ID_FECHA': 20161001, 'BUREAUX_EMPRESA': 0, 'BUREAUX_ADMIN': 0, 'INDACCESOINFORMA': None, 'B10CODINFORMAACTIV': None, 'B10CODIGOVIDA': None, 'B10FECCONST_FC': None, 'NOTA': None, 'B40NUMTOTRETRORGOFIC_NUM': None, 'B40FECULTRETRORGFIC_FC': None, 'ACTIVOCORRIENTE': None, 'PASIVOCORRIENTE': None, 'PRED_PERCENTIL': None, 'VPREGLAMASPRIORITARIA2': None, 'SEGMENTO2': 'Amena Posventa', 'SEGMENTO': 'Alta', 'CANAL_CDM': '13.OTROS', 'TIPO_DE_ALTA': None, 'MOTIVO_RECHAZO': None, 'FAMILIA_CNAE': None, 'ANTIGCLI_NUM': 101, 'ANTEMPRESA_NUM': -99, 'ANTULTRETRORGFIC_NUM': -99, 'ANT_IAE': -99, 'RATFACINCFACPAG_NUM': 0.38, 'CODPROV': 3, 'MAXMONTHLYAVGETURNOVER2': '075.74-75', 'SCORE_SAMPLE': 1, 'SCORECARD_ID': 'SC11', 'EDAD_NUM': 36, 'FECALTACLI': None, 'MPREPOS_ANTPREP_NUM': -99, 'MPREPOS_IMPRECSCOSTE_NUM': 0, 'MPREPOS_IMPMEDRECSCOSTE_NUM': 0, 'MPREPOS_IMPRECSCOSTE': 0, 'MPREPOS_IMPMEDRECSCOSTE': 0, 'ADMINASNEF_NUM2': -99, 'ADMINBADEX_NUM2': -99, 'DEUDA': -99, 'DEUDA_TELCO': -99, 'DEUDA2': 'No Bureaux', 'DEUDA_TELCO2': 'No Bureaux', 'COD_CNAE': -999, 'PRED_PERCENTIL2': -98, 'FONDO_MANIOBRA': None, 'RAT_MANIOBRA_B': None, 'RAT_MANIOBRA_B2': -98, 'COSECHA_COMP': 201610, 'SEMANA': 'y2016w39', 'INFORME': 5, 'COSECHA': 201610, 'CANAL_ENTRADA': 'RENOVE', 'CUST_CODE': 1.55183626, 'ID_CONTRATO': 57098271, 'FECHA_ALTA_VAP': 20161005, 'FECHA_BAJA_VAP': None, 'COD_OPER_VAP': '57098271_20161005_0', 'DIAS_ALTA_VAP': 4, 'FLAG_TIPOLOGIA': 1, 'IMPORTE_CUOTA': 3.4969, 'IMP_FINANCIADO_NEW_2': 84, 'IMP_TOTAL': 84.000015, 'SW_DOLPHIN': 1, 'FLAG_DISPOSITIVO': None, 'ORDEN_CONTRATOS': 4, 'COD_OPER_VAP_FAC': '57098271_20161005_0', 'FECHA_CARGA_FOTO': 20180308, 'MES_1A_FACTURA': 201610, 'MES_2A_FACTURA': 201611, 'MES_3A_FACTURA': 201612, 'FACTURADO_MES1': 105.22, 'IMPORTE_DEVOLUCION_MES1': None, 'DIAS_ESTADO_IMPAGO_MES1': None, 'FECHA_ENTRADA_DEUDA_MES1': None, 'FECHA_SALIDA_DEUDA_MES1': None, 'IMPORTE_ACTUAL_DEUDA_MES1': None, 'FACTURADO_MES2': 24.12, 'IMPORTE_DEVOLUCION_MES2': None, 'DIAS_ESTADO_IMPAGO_MES2': None, 'FECHA_ENTRADA_DEUDA_MES2': None, 'FECHA_SALIDA_DEUDA_MES2': None, 'IMPORTE_ACTUAL_DEUDA_MES2': None, 'FACTURADO_MES3': 26, 'IMPORTE_DEVOLUCION_MES3': None, 'DIAS_ESTADO_IMPAGO_MES3': None, 'FECHA_ENTRADA_DEUDA_MES3': None, 'FECHA_SALIDA_DEUDA_MES3': None, 'IMPORTE_ACTUAL_DEUDA_MES3': None, 'MAX_DIAS_HA_SIDO_DEUDA': None, 'MAX_DIAS_ACTUAL_DEUDA': None, 'FLAG_VAP': 1, 'MAX_DIAS_ESTADO_IMPAGO': 2, 'sw_ni2p_final': 0, 'PAPTELEFONO_TK': None, 'PAPTARIFAORIGEN_TK': '100', 'PAPTARIFADESTINO_TK': '100', 'PAPPAGOUPFRONT_TK': '10', 'PAPIMPFINANCIADO_TK': '100', 'PAPIMPCUOTA_TK': '200#20#4', 'PAPDETALLEDISP_TK': 'SAMSUNG GALAXY S8'}\n",
+          "stream": "stderr",
+          "docker": {
+            "container_id": "dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5"
+          },
+          "kubernetes": {
+            "container_name": "gea-scoringbigdata-decisor-pre",
+            "namespace_name": "pre",
+            "pod_name": "gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf",
+            "pod_id": "b784a39e-7e3c-11ea-a3c6-005056bbf4b5",
+            "labels": {
+              "deploy-version": "v202004020901",
+              "k8s-app": "gea-scoringbigdata-decisor",
+              "pod-template-hash": "54bb4dc586",
+              "project": "gea-scoringbigdata",
+              "version": "v1.3.5"
+            },
+            "host": "tor01-aot-002-k8s08",
+            "master_url": "https://10.0.0.1:443/api"
+          },
+          "@timestamp": "2020-04-16T14:47:54+00:00",
+          "tag": "kubernetes.var.log.containers.gea-scoringbigdata-decisor-pre-54bb4dc586-d7gcf_pre_gea-scoringbigdata-decisor-pre-dd06415f9037bcc8b8c73aa34f3b75f5ebdd2d1c2211bc384d871a9edf9f8fc5.log"
+        }
+      }
+    ]
+  }
+}
