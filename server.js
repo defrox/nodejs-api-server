@@ -165,26 +165,34 @@ if (mode == 'hbase') {
         if (table === "smscoring_porta" && key !== "notfound" && key !== "000000000") {
             res_out = {"Row":[{"key": key,"Cell":[{"column":"portabilities:date_load","timestamp":1583150734405,"value":"20191210"},{"column":"portabilities:months_portability","timestamp":1583150734405,"value":"38"},{"column":"portabilities:portabilities_activities","timestamp":1583150734405,"value":"0.44"},{"column":"portabilities:total_effectives_l2y","timestamp":1583150734405,"value":"0"}]}]};
         } else if (table === "smscoring_porta" && (key === "notfound" || key === "000000000")) {
-            res_out = res.status(404).send('Not Found');
+            // res_out = res.status(404).send('Not Found');
+            res_out = {"error": "Not Found", "status": "404"};
         }
-        if (table === "interconexiones_scores" && key !== "notfound" && key !== "000000000") {
+        if (table === "interconexiones_scores" && key !== "notfound1" && key !== "0000000001" && key !== "notfound0" && key !== "0000000000") {
             score = Math.random().toString();
             console.log(database, table, key, score);
             res_out = {"Row":[{"key": key,"Cell":[{"column":"interconexiones:score","timestamp":1583150734405,"value":score},{"column":"interconexiones:varios_num_x_peticion","timestamp":1583150734405,"value":"0"}]}]};
+        } else if (table === "interconexiones_scores" && (key === "notfound1" || key === "0000000001" || key === "notfound0" || key === "0000000000")) {
+            // res_out = res.status(404).send('Not Found');
+            res_out = {"error": "Not Found", "status": "404"};
         }
         if (table === "interror" || key === "interror") {
-            res_out = res.status(500).send('Internal Server Error');
+            // res_out = res.status(500).send('Internal Server Error');
+            res_out = {"error": "Internal Server Error", "status": "500"};
         }
         if (table === "timeout" || key === "timeout") {
-            res_out = res.status(503).send('Service Unavailable');
+            // es_out = res.status(503).send('Service Unavailable');
+            res_out = {"error": "Service Unavailable", "status": "503"};
         }
         if (table === "badrequest" || key === "badrequest") {
-            res_out = res.status(400).send('Bad Request');
+            // res_out = res.status(400).send('Bad Request');
+            res_out = {"error": "Bad Request", "status": "400"};
         }
        //console.log(res_out);
-        if (table !== "timeout" && key !== "timeout" && table !== "interror" && key !== "interror" && table !== "badrequest" && key !== "badrequest") {
+        /*if (table !== "timeout" && key !== "timeout" && table !== "interror" && key !== "interror" && table !== "badrequest" && key !== "badrequest" && key !== "notfound1" && key !== "0000000001" && key !== "notfound0" && key !== "0000000000") {
             setTimeout(function(){res.json(res_out);}, randomIntInc(delayMin, delayMax));
-        }
+        }*/
+        setTimeout(function(){res.json(res_out);}, randomIntInc(delayMin, delayMax));
     });
 } else if (mode == 'elastic') {
     //GET cluster health
